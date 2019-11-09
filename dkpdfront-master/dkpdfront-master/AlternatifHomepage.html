@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/homepage2.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="semua">
+        <div class="isi">
+                <img src="gambar/logo.png" height="60px" style="position: absolute"></div>
+                
+    <div class="isi">
+        <div class="baru">
+
+        <a href="">Tentang Kami</a>
+        <a href="">Facebook</a>
+        <a href="">Twitter</a>
+    </div>
+    </div>
+</div>
+</div>
+
+<div id="navbar">
+    <div class="bungkusnavbar">
+  <a class="active" href="javascript:void(0)">DKPD GROBOGAN</a>
+  <a class="dd" href="javascript:void(0)">Profil</a>
+  <a class="dd" href="javascript:void(0)">Data</a>
+  <a class="dd" href="javascript:void(0)">Dokumen</a>
+  <a class="dd" href="javascript:void(0)">Info</a>
+  <a class="dd" href="javascript:void(0)">PPID</a>
+  <a class="dd" href="javascript:void(0)">Buku Tamu</a>
+</div>
+</div>
+
+
+<div class="beritabaru">
+  <div class="transparan">a</div>
+  <div class="tulisan"></div>
+         <marquee class="tulisan"> Selamat Datang di Situs Resmi Dinas Ketahanan Pangan Daerah Grobogan</marquee>
+      </div>
+
+
+
+
+      <div class="news" >
+        <div class="judulterbaru"><p style="font-size: 18px;color :#f7b00a;
+          border-bottom: 2px solid #d7d9db;margin-bottom: 20px;padding-bottom: 10px;">Berita <b style="color: grey">Terbaru</b> <button class="pencet">Indeks»</button> </p></div>
+     
+     
+     
+        <div class="kotakberita" style="background-image: url(css/ternak.jpg)"><div class="judulkotak">Domba akan disembelih menjelang idul adha</div>
+            <div class="kotakcover"></div>
+        </div>
+
+        <div class="kotakberita"style="background-image: url(css/dele.jpg)"><div class="judulkotak">kebutuhan kedelai di kabupaten grobogan meningkat</div>
+          <div class="kotakcover"></div>
+        </div>
+          
+        <div class="kotakberita"style="background-image: url(css/lombokmahal.jpg)"><div class="judulkotak">Kenaikan drastis harga lombok dikabupaten grobogan</div>
+          <div class="kotakcover"></div>
+        </div>
+        
+        <div class="kotakberita"style="background-image: url(css/daging.jpg)">
+          <div class="judulkotak">ditemukan daging mengandung sakarin</div>
+          <div class="kotakcover"></div>
+        </div>
+     
+      </div>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var content = document.getElementsByClassName("active")[0].offsetTop;
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= content) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
