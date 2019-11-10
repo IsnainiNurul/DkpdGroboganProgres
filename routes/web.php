@@ -10,3 +10,9 @@ Route::post('/Submenu/store', 'SubmenuController@store');
 Route::get('/Submenu/updates', 'SubmenuController@updates');
 Route::get('/Submenu/hapus/{id}', 'SubmenuController@hapus');
 Route::get('/Submenu/berita/{id}','SubmenuController@berita');
+
+
+Route::get('/upload', 'UploadController@upload');
+Route::get('/upload/hapus/{id}','UploadController@hapus');
+Route::get('/upload/lihat/{id}','UploadController@lihat');
+Route::post('/upload/proses', 'UploadController@proses_upload');
